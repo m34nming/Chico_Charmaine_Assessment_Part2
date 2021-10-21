@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-center {
+}
+
+.text-primary {
+}
+
+.bg-light {
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.l-heading {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.m-heading {
+    margin: 20px;
+    text-align: center;
+}
+
+.lead {
+    margin: 10px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.py-1 {
+ 
+}
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+}
+.p-2 {
+}
+.p-3 {
+}
+
+.btn {
+
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    background:#94CE52;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;    
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn-dark {
+}
+
+.list {
+}
+
+.list li {
+    list-style: none;
+    border-bottom: dotted;
+    border-width: 0.1em;
+    padding: 10px 0px;
+}
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background:#1c1719;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem 4rem;
+    overflow: auto;
+}
+#navbar h1 {
+    float: left;
+    padding: 10px;
+}
+
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li a {
+    display: block;
+    color: aliceblue;
+    padding: 0.75rem;   
+    margin:0 0.025rem;
+    
+}
+
+#navbar ul li a:hover {
+    background: rgb(225, 225, 225, 0.4);
+    color:#8bc946;
+}
+
+
+
+/* Showcase */
+#showcase {
+    background: url("/img/main-background.jpg")no-repeat center center/cover;
+    height: 100vh;
+}
+
+#showcase .showcase-content {
+    justify-content: center;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.4);
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* Section: What We Do */
+#what {
+    background: #f4f4f4;
+    padding: 40px;
+    padding-top: 10px;
+}
+#what .items {
+    display: flex;
+}
+
+#what .items .item {
+    display: flex;
+    margin: 20px;
+}
+
+#what .items .item i {
+    background: #8bc946;
+    border-radius: 100%;
+    padding: 10px;
+}
+.text-primary {
+    color: #8bc946;
+}
+
+/* Section: Who We Are */
+#who {
+    display: flex;
+}
+
+#who div {
+    padding-left: 40px;
+    flex: 1;
+}
+
+#who .who-img {
+    width: 200px;
+    height: 500px;
+    background: url(../img/article.svg) no-repeat center center/cover;
+}
+#who .who-text {
+    margin: 30px;
+    justify-content: left;
+}
+#who p {
+    margin-bottom: 30px;
+}
+/* Section: Clients */
+#clients .items {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 1em;
+}
+
+#clients .items img {
+    display: flex;
+    width: 200px;
+    align-items: center;
+
+}    
+}
+#who .who-boss {
+    text-align: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#who .who-text .m-heading {
+    text-align: left;
+    margin: 0px 10px 0px 0px;
+}
+p.foot {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

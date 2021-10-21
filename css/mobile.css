@@ -1,0 +1,60 @@
+#what .items {
+  display: block;
+}
+
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  /* align-items:center */
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+  align-items: center;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  /* navbar */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #navbar ul {
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 20px;
+  }
+  #logo {
+    /* align-items:center */
+    text-align: center;
+  }
+  /* what */
+  #what .items {
+    display: block;
+  }
+  #what .items .item {
+    display: flex;
+    align-items: left;
+  }
+  #what .items .item i {
+    text-align: center;
+    background: #8bc946;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+  }
+  /* who */
+  #who div {
+    display: block;
+  }
+  /* notsureifthisworks */
+  .item div {
+    margin-left: 20px;
+  }
+  #who .who-img {
+    background: none;
+  }
+}
