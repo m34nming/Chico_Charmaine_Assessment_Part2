@@ -33,6 +33,7 @@
     }
     #what{
         height: 600px;
+        padding: 0px;
     }
     #what .items{
         display: flex;
