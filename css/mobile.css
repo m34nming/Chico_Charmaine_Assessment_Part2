@@ -1,18 +1,4 @@
-#what .items {
-  display: block;
-}
 
-/* Align icon to left */
-#what .items .item {
-  display: flex;
-  /* align-items:center */
-  text-align: left;
-}
-
-/* Position icon */
-#what .items .item i {
-  align-items: center;
-}
 /* Smartphones */
 @media (max-width: 500px) {
     #showcase {
