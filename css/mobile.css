@@ -93,7 +93,6 @@
     }
   #clients .items {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     overflow: hidden;
     padding-left: 0px;
@@ -153,3 +152,4 @@
 #who div {
   display: flex;
 }
+
