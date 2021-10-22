@@ -75,7 +75,6 @@
      display: none;    
     }
     .who-text{
-
         padding-bottom: 0;
         margin-bottom: 0;
         height: 300px;
@@ -92,7 +91,6 @@
         padding-bottom: 0px;
         margin: 0;
     }
-  
   #clients .items {
     display: flex;
     flex-direction: row;
@@ -108,7 +106,6 @@
        border: 0;
        padding: 0;
     }  
-}
 /* not 500 */
 #showcase {
     height: 80vh;  
@@ -119,6 +116,7 @@
 #what .items {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 #what .items .item {
