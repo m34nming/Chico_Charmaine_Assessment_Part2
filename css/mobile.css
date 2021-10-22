@@ -16,6 +16,7 @@
 
 /* Smartphones */
 @media (max-width: 500px) {
+    height: 300px;
   /* navbar */
   #navbar {
     display: flex;
@@ -31,12 +32,26 @@
     /* align-items:center */
     text-align: center;
   }
+  .btn {
+    width: 40%;
+    font-weight: 50px;
+  }
   /* what */
   #what .items {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 450px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  #what {
+    height: 600px;
   }
   #what .items .item {
     display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
     align-items: left;
   }
   #what .items .item i {
@@ -53,6 +68,19 @@
   /* notsureifthisworks */
   .item div {
     margin-left: 20px;
+  }
+  #showcase .showcase-content {
+    height: 500px;
+    padding-top: 10px;
+  }
+  #showcase .l-heading {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .lead {
+    line-height: 1rem;
+    font-size: 15px;
+    padding: 10px 80px;
   }
   #who .who-img {
     background: none;
