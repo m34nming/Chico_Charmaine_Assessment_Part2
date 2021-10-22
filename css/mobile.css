@@ -13,7 +13,6 @@
 #what .items .item i {
   align-items: center;
 }
-
 /* Smartphones */
 @media (max-width: 500px) {
     #showcase {
@@ -75,6 +74,7 @@
      display: none;    
     }
     .who-text{
+
         padding-bottom: 0;
         margin-bottom: 0;
         height: 300px;
@@ -91,21 +91,22 @@
         padding-bottom: 0px;
         margin: 0;
     }
-  #clients .items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    overflow: hidden;
-    padding-left: 0px;
-  }
-    margin: 0;
-    padding: 0;
+    #clients .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        overflow: hidden;
+        padding-left: 0px;
+        margin: 0;
+        padding: 0;
+          
     }
      #clients .items img {
        margin: 0;
        border: 0;
        padding: 0;
     }  
+}
 /* not 500 */
 #showcase {
     height: 80vh;  
@@ -116,7 +117,6 @@
 #what .items {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 #what .items .item {
@@ -130,7 +130,8 @@
 }
 
 #who .who-img {
-    display: none;
+    width: 100px;
+    height: 300px;
 }
 .list {
     margin-bottom: 10px;
@@ -141,7 +142,11 @@
     list-style: none;
     border-bottom: dotted;
     padding: 10px 0px;
-
+}
+#clients .items {
+    
+    padding-left: 10px;
+    
 }
 #clients .items img {
     width: 100px;
@@ -150,7 +155,3 @@
     margin-left: 70px;
     margin-bottom: 40px;
 }
-#who div {
-  display: flex;
-}
-
