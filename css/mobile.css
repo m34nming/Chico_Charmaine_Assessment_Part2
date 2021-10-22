@@ -144,9 +144,8 @@
     padding: 10px 0px;
 }
 #clients .items {
-    
     padding-left: 10px;
-    
+    justify-content: flex-end;
 }
 #clients .items img {
     width: 100px;
