@@ -31,6 +31,12 @@
         font-size: 15px;
         padding: 10px 80px;
     }
+    #what {
+    background: #f4f4f4;
+    padding: 0px;
+    padding-top: 0
+    }
+    
     #what{
         height: 600px;
         padding: 0px;
