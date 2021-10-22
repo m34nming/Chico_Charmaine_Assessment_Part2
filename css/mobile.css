@@ -92,13 +92,14 @@
         padding-bottom: 0px;
         margin: 0;
     }
+  
   #clients .items {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     overflow: hidden;
     padding-left: 0px;
-;
+  }
     margin: 0;
     padding: 0;
     }
